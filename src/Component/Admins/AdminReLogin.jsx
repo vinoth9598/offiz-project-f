@@ -27,7 +27,6 @@ function AdminReLogin({setAdminUser, setAdminToken, setShow, show}) {
         if(response.status === 200){
             console.log("admin login success") ;
             console.log("login data :",data);
-            alert(JSON.stringify(data));
 
             setReLoginAdmin({
                 email:"",

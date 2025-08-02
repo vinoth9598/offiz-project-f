@@ -60,7 +60,7 @@
     .content-employ .em-link{
         display: flex;
         flex-direction: row;
-        width: 100px;
+        width: 120px;
         align-items: center;
         margin-left:2px;
         justify-content: left;

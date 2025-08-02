@@ -26,7 +26,7 @@ function Queryadmin(){
   })
   
   return (
-    <div className='container-full w-100 bg-dark '>
+    <div className='container-full w-100 bg-dark overflow-auto '>
         <div className=' p-2'>
           <p className='text-light'>Raceive Any Queries From Staffs <button onClick={handleView} className='bg-warning border border-primary '>view</button></p>
           {
@@ -41,7 +41,7 @@ function Queryadmin(){
                                 return (
                                   <div key={index} className='p-2 border '>
                                       <p className='text-dark fs-5 '>Details for Query : query resolve with in one day</p>
-                                      <div className='bg-secondary w-75 h-25 d-flex flex-row flex-wrap justify-content-around ' >
+                                      <div className='bg-secondary w-100 h-25 m-2 d-flex flex-row flex-wrap justify-content-around ' >
                                         <div className='d-flex flex-column w-100  text-light  justify-content-around align-items-left p-2 fs-6'>
                                           <p>Query No : <span className='text-dark fw-bold '>{index + 1}</span></p>
                                           <p>Name : <span className='text-dark fw-bold '>{items.name}</span></p>
@@ -49,7 +49,7 @@ function Queryadmin(){
                                           <p>Title : <span className='text-dark fw-bold '>{items.title}</span></p>
                                           <p>Category : <span className='text-dark fw-bold '>{items.category}</span></p>
                                           <p>Description: <span className='text-dark fw-bold '>{items.description}</span></p>
-                                          <button className='bg-info p-1 w-25 text-light border-info rounded-2'>Resolved</button>
+                                          <button className='bg-info p-1 text-light border-info rounded-2' style={{width:100}}>Resolved</button>
                                          
                                         </div>
                                       </div>

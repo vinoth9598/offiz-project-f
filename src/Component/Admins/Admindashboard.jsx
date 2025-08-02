@@ -35,7 +35,7 @@ function Admindashboard({setLoginUser, setAdminUser, setAdminToken}){
     return (
         <div className='container-full w-100 bg-dark'>
             <div className='content-admin d-flex flex-row bg-dark'>
-            <div className='admin-nav d-flex flex-column bg-dark p-2'>
+            <div className='admin-nav bg-dark p-2'>
                 <Link to='/admin' className='admin-link'>
                     <GrSystem className='img fs-3'/>
                     <p>Management</p>
