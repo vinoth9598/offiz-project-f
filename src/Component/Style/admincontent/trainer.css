@@ -1,0 +1,80 @@
+
+.addNew{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.nav-staff button{
+    background-color: green;
+    border:1px solid green;
+
+}
+.formstaff .inputs{
+    margin:5px ;
+}
+.formstaff .inputs input{
+    padding:5px ;
+    font-size: 14px;
+    outline: none;
+    border-radius: 5px;
+}
+.formstaff button{
+    margin:5px;
+    width: 100px;
+    background-color: green;
+    color: white;
+    border:1px solid green;
+    border-radius: 4px;
+}
+
+.snew-form{
+    box-sizing: border-box;
+}
+.snew-form .inputs input{
+    margin:5px;
+    width:200px;
+    font-size: 15px;
+    padding:4px;
+    border:1px solid white;
+    border-radius: 5px;
+    outline: none;
+}
+.snew-form button{
+    margin:5px;
+    width:100px;
+    padding:2px;
+    border:1px solid black;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+}
+
+@media (max-width:450px){
+    .nav-staff{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: left;
+        margin-right: 5px;
+    }
+    .nav-staff h4{
+        font-size: 14px;
+    }
+    .nav-staff button{
+        width: 140px;
+        font-size: 12px;
+        padding: 2px;
+    }
+    
+}
+
+@media (max-width:450px){
+    .student-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}

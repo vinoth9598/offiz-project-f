@@ -1,0 +1,257 @@
+/* Admin css */
+
+.admin{
+    width:100vw;
+    height: 100vh;;
+    background-color: darkblue;
+}
+
+.admin h3:hover{
+    font-weight: bold;
+    cursor: pointer;
+    text-shadow: 0.1px 0.2px;
+}
+.admin-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.admin-form{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    width: 400px;
+    height: 350px;
+    margin-left: 30px;
+    border:2px solid wheat;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px;
+    padding:20px;
+    cursor: pointer;
+}
+.input input{
+    margin:6px;
+    width: 300px;
+    padding: 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    border:1px solid white;
+    outline:none;
+    
+}
+.ainputpass {
+    display: flex;
+    flex-direction: row;
+    margin:6px;
+    background-color: white;
+    border:1px solid yellow;
+    border-radius:5px ;
+    width:300px;
+    justify-content: space-between;
+    padding:8px;
+}
+
+.ainputpass input{
+    background-color: white;
+    border:1px solid white;
+    outline: none;
+    width: 250px;
+}
+
+.ainputpass .hidden{
+    color:gray;
+}
+
+.admin-btn {
+    margin:15px 10px;
+    width:100%;
+}
+
+.admin-button{
+    width:200px;
+    border:1px solid white;
+    background-color: #730389;
+    color:yellow;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.admin-button:hover{
+    background-color: white;
+    color:red;
+    font-weight: bold;
+}
+
+span p{
+    color:blue;
+    width: 100%;
+ 
+}
+p button{
+    color:black;
+    border:1px solid blue;
+    border-radius: 5px;
+    padding:4px;
+    width:100px;
+    margin-left:4px;
+}
+@media (max-width:760px){
+    .admin{
+        width:100%;
+        height: 100%;
+        font-size: medium;
+        background-color: darkblue;
+        display:inline-block;
+        
+    }
+    
+    .admin-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+        overflow: scroll;
+    }
+
+    .admin-form{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom:10px;
+    }
+   
+    .ainputpass {
+        display: flex;
+        flex-direction: row;
+        margin:6px;
+        margin-left: 25px;
+        background-color: white;
+        width:300px;
+        justify-content: space-between;
+        padding:8px;
+    }
+
+    .adminimage{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:400px){
+    .admin{
+        width:100%;
+        height: 100%;;
+        background-color: darkblue;
+    }
+    
+    .admin h3{
+        font-weight:400;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .admin-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: left;
+        padding: 10px;
+        cursor: pointer;
+        width:80%;
+    }
+    
+    .admin-form{
+        display: flex;
+        flex-direction: column;
+        background-color: whitesmoke;
+        width: 95%;
+        height: 300px;
+        border:2px solid wheat;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px;
+        padding:10px;
+        cursor: pointer;
+    }
+    .admin-form .input input{
+        margin:5px;
+        width: 100%;
+        padding: 5px;
+        font-size: 15px;
+        border-radius: 3px;
+        border:1px solid gray;
+        outline:none;
+    }
+    .ainputpass {
+        display: flex;
+        flex-direction: row;
+        margin-left:5px;
+        background-color: white;
+        border:1px solid gray;
+        border-radius:5px ;
+        width:100%;
+        justify-content: space-between;
+        padding:5px;
+    }
+    
+    .ainputpass input{
+        background-color: white;
+        border:1px solid white;
+        font-size: 14px;
+        outline: none;
+        width: 80%;
+    }
+    
+    .ainputpass .hidden{
+        color:gray;
+        font-size: 15px;
+    }
+    
+    .admin-btn {
+        margin: 10px 0px;
+        width:100%;
+    }
+    
+    .admin-button{
+        width:100px;
+        border:1px solid white;
+        background-color: #730389;
+        color:yellow;
+        border-radius: 5px;
+        padding: 2px;
+    }
+    
+    .admin-button:hover{
+        background-color: white;
+        color:red;
+        font-weight: bold;
+    }
+    
+    span p{
+        color:blue;
+        width: 100%;
+        font-size: 15px;
+     
+    }
+    p button{
+        color:black;
+        border:1px solid blue;
+        border-radius: 5px;
+        padding:1px;
+        width:100px;
+        margin-left:4px;
+    }
+    .adminimage{
+        display:flex;
+        justify-content: center;
+        width:50px;
+        align-items: center;
+    }
+}

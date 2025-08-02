@@ -1,0 +1,112 @@
+
+*{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    margin:0;
+    padding:0;
+}
+
+.head{
+    background-color: darkblue;
+    font-style: italic;
+    color:white;
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    width: 100%;
+    font-weight: bold;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border:1px solid black;
+    background-color:black;
+    padding:10px;
+    margin:0px;
+}
+.links-menu{
+    display: none;
+}
+.menu-nav{
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.menu-nav:hover{
+    background-color: lightslategray;
+    border-radius: 6px;
+}
+.title{
+    border:1px solid white ;
+    background-color:white;
+    width:250px;
+    border-radius: 5px;
+    height: 30px;
+    padding:3px;
+}
+.title p {
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+}
+.link{
+    font-size: large;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover{
+    background-color:gray;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/* break points */
+@media (max-width:600px){
+    .nav-bar{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        border:1px solid black;
+        background-color:black;        
+    }
+    .link{
+        display: none;
+        
+    }
+    .menu-cross{
+        color:white;
+        font-size:30px;
+        margin:10px;
+    }
+    .links-menu{
+        display: inline-block;
+        width:100%;
+        background-color: white;
+    }
+    .links{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        color:black;
+        text-decoration: none;
+        background-color: aqua;
+        border-bottom: 1px solid white;
+        justify-content: center;
+        align-items: left;
+    }
+    .links:hover{
+        background-color: black;
+        color:white;
+        border:2px solid white;
+    }
+}
+
+
+

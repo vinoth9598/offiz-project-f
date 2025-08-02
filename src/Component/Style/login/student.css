@@ -1,0 +1,156 @@
+
+
+
+/* student login css */
+.container-full{
+    background-color: darkblue;
+    width: 100vw;
+    height: 100vh;
+    margin:0;
+    padding:0;
+}
+
+.s-form h4{
+    text-transform: capitalize;
+    color:darkblue;
+    background-color:whitesmoke;
+    padding-left: 10px;
+}
+
+.sform{
+    display: flex;
+    flex-direction:column;
+    border:1px solid white;
+}
+
+.sform-input{
+ 
+}
+
+.sform-input-e input{
+    display: flex;
+    padding:6px;
+    justify-content: left;
+    margin:10px 50px;
+    width:300px;
+    padding:8px;
+    outline: none;
+    border:1px solid white ;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px;
+}
+.sform-input-p {
+    display: flex;
+    padding:6px;
+    justify-content: space-between;
+    margin:10px 50px;
+    width:300px;
+    padding:8px;
+    outline: none;
+    background-color: white;
+    border:1px solid white ;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px;
+}
+.sform-input-p input{
+    width:250px;
+    border:none;
+    outline: none;
+}
+.sform-input-p .hidden{
+    color:gray;
+    cursor: pointer;
+}
+.s-btn{
+    margin: 10px;
+    padding:5px 10px;
+    background-color:black;
+    color:white;
+    border-radius: 10px;
+    border:1px solid black;
+    box-shadow: 0.2px 0.5px;
+    outline: none;
+}
+
+.s-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+@media (max-width:400px){
+    .container-full{
+        background-color: darkblue;
+        width: 100vw;
+        height: 100vh;
+        margin:0;
+        padding:0;
+    }
+
+    .s-form h4{
+        text-transform: capitalize;
+        color:darkblue;
+        font-size: 16px;
+        background-color:whitesmoke;
+        padding: 5px;
+    }
+
+    .sform{
+        display: flex;
+        flex-direction:column;
+        border:1px solid white;
+    }
+
+    .sform-input-e input{
+        display: flex;
+        padding:5px;
+        justify-content: left;
+        margin:10px 10px;
+        width:250px;
+        padding:5px;
+        outline: none;
+        border:1px solid white ;
+        border-radius: 5px;
+        font-size: 16px;
+        box-shadow: 1px 1px 1px;
+    }
+    .sform-input-p {
+        display: flex;
+        padding:5px;
+        justify-content: space-between;
+        margin:10px 10px;
+        width:250px;
+        padding:6px;
+        outline: none;
+        background-color: white;
+        border:1px solid white ;
+        border-radius: 6px;
+        font-size: 16px;
+        box-shadow: 1px 1px 1px;
+    }
+    .sform-input-p input{
+        width:250px;
+        border:none;
+        outline: none;
+    }
+    .sform-input-p .hidden{
+        color:gray;
+        cursor: pointer;
+    }
+    .s-btn{
+        margin: 5px;
+        padding:5px 10px;
+        background-color:black;
+        color:white;
+        border-radius: 10px;
+        border:1px solid black;
+        box-shadow: 0.2px 0.5px;
+        outline: none;
+    }
+
+    .s-btn:hover{
+        background-color: white;
+        color: black;
+    }
+}

@@ -1,0 +1,78 @@
+
+.content-admin .admin-nav{
+    width:250px;
+    justify-content: space-around;
+    align-items: center;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-admin .admin-link{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    padding:6px;
+    color:wheat;
+    text-decoration: none;
+}
+.content-admin .admin-link:hover{
+    background-color:lightblue;
+    color:black;
+}
+.content-admin .admin-link .img{
+    color:black;
+    border:1px solid white;
+    background-color: white;
+    padding:2px;
+    margin:5px;
+}
+.content-admin .admin-link p{
+    padding:5px;
+    margin:5px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width:600px){
+    .content-admin {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        
+    }
+    .content-admin .admin-nav{
+       border: 1px solid blue;
+       width: 100%;
+       height: 60px;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       
+    }
+    
+    .content-admin .admin-link{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:200px;
+        align-items:center;
+        justify-content: left;
+        padding:6px;
+        color:wheat;
+        text-decoration: none;
+    }
+   
+    .content-admin .admin-link .img{
+       display: none;
+    }
+    .contents .admin-link p{
+        padding:5px;
+        margin:5px;
+        font-size: 16px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+}
