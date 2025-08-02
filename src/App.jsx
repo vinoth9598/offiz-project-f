@@ -16,7 +16,7 @@ import Students from './Component/Admins/Students';
 import Admindashboard from './Component/Admins/Admindashboard';
 import Expensive from './Component/Admins/Expensive';
 import Companyrequirement from './Component/Admins/Companyrequirement';
-import Queryadmin from './Component/Admins/QueryAdmin';
+import Queryadmin from './Component/Admins/Queryadmin';
 
 import Mentorship from './Component/Employees/EmployContent/Mentorship';
 import Assignments from './Component/Employees/EmployContent/Assignments' ;
